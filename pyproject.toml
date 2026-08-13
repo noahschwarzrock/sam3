@@ -37,5 +37,3 @@ packages = ["sam3", "sam3.model"]
 
 [tool.setuptools.dynamic]
 version = {attr = "sam3.__version__"}
-
-ignore_missing_imports = true
